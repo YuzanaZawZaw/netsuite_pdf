@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+    <!-- =================================================
+        Head??
+    ================================================== -->
+    <head>
+        <!-- ???????? -->
+                 <!--<link name="???" type="font" subtype="truetype" src="" src-bold="" bytes="2" />
+		-->
+        <!-- ?????? -->
+
+        <!-- ===============================
+	        ??????????
+	    ================================ -->
+
+        <!--  ?????????  -->
+
+      	<!-- ??? -->
+        <!--===========================START TESTING============================-->
+        
+
+        <!-- ===============================
+	        ???????????
+	    ================================ -->        
+        <macrolist>
+            <!-- ???? -->
+            <macro id="nlheader">
+                <table>
+                    <tr>
+                        <td align="center" class="docTitleAdjustment docTitle">
+                        	TESTING
+                        </td>
+                    </tr>
+                </table>
+            </macro>
+
+            <!-- ???? -->
+            <macro id="nlfooter">
+                <table class="footer footerAdjustment">
+                    <tr>
+                        <td align="left">
+                          	S/N No.: 22-09-603,22-09-604,22-09-605,22-09-606,22-09-607
+                      	</td>
+                        <td align="right">
+                            <pagenumber />/<totalpages /> page
+                        </td>
+                    </tr>
+                </table>
+            </macro>
+        </macrolist>
+
+        <!-- ===============================
+	        function
+	    ================================ -->
+
+        <!-- ===============================
+	        macro
+	    ================================ -->
+
+        
+
+        <!-- ===============================
+            style?css?
+        ================================ -->
+        <style type="text/css">
+        /*================================
+            ?????????
+        ================================*/
+        * {
+            font-family:
+                ???,
+                sans-serif;
+        }
+
+        /*
+        ???
+        */
+        
+        table {
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .docTitle {
+            font-size: 21pt;
+        }
+
+        .docTitleAdjustment {
+            border: 1px;
+            border-right: none;
+            border-left: none;
+            vertical-align: middle;
+            letter-spacing: 5pt;
+        }
+
+        .footerAdjustment {
+            width: 100%;
+            font-size: 7pt;
+        }
+
+        .fs11 {
+            font-size: 11pt !important;
+        }
+        
+       .fs9 {
+            font-size: 9pt !important;
+        }
+
+		.ml50{
+			margin-left: 50pt;
+		}
+
+		.ml32{
+			margin-left: 32pt;
+		}
+        .ml20{
+            margin-left: 20pt;
+        }
+
+        .pl30{
+            padding-left: 30pt;
+        }
+        .mt-8{
+            margin-top:-8pt;
+        }
+        </style>
+    </head>
+    <!-- =================================================
+        Body??
+    ================================================== -->
+    <body header="nlheader" header-height="5%" footer="nlfooter" footer-height="10pt" padding="0.2in 0.2in 0.2in 0.2in" size="A4">       
+                    <table>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        Date :
+                    </td>   
+                    <td align="left" class="fs9 ml20" width="70%">
+                        05/26/2023<br/>
+                    </td>  
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        Built-ins for booleans
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        130
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        chunk
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                            abc
+                            def
+                            ghi
+                            j--
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        drop_while
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        Drop while positive:
+                            -3 4 -5 6 
+                        <br/>
+                        Filer for positives:
+                            1 2 4 6 
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        filter
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        Positives:
+                            1 3 4 
+                            <br/>
+                        Negatives:
+                            -2 -5 
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        min, max
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        min ::1
+                        <br/>
+                        max ::3
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        take_while
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        Take while positive:
+                        1 
+                        <br/>
+                        Filter for positives:
+                        1 3 4 
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        Filtering missing (null) values
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        First::
+                        red,,, green,,, blue
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        seq_contains
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        "blue": yes<br/>
+                        "yellow":no<br/>
+                        16: yes<br/>
+                        "16": no
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        seq_index_of
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        The index of "blue"::2<br/>
+                        The index of "red"::0<br/>
+                        The index of "purple"::-1
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        seq_index_of
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        No 2nd param: 0<br/>
+                        -2:&nbsp;&nbsp;&nbsp;0<br/>
+                        -2:&nbsp;&nbsp;&nbsp;0<br/>
+                        -1:&nbsp;&nbsp;&nbsp;0<br/>
+                        0:&nbsp;&nbsp;&nbsp;&nbsp;0<br/>
+                        1:&nbsp;&nbsp;&nbsp;&nbsp;2<br/>
+                        2:&nbsp;&nbsp;&nbsp;&nbsp;2<br/>
+                        3:&nbsp;&nbsp;&nbsp;&nbsp;-1<br/>
+                        4:&nbsp;&nbsp;&nbsp;&nbsp;-1
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        seq_last_index_of
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        No 2nd param: 2
+                        -2:&nbsp;&nbsp;&nbsp;-1<br/>
+                        -1:&nbsp;&nbsp;&nbsp;-1<br/>
+                        0:&nbsp;&nbsp;&nbsp;&nbsp;0<br/>
+                        1:&nbsp;&nbsp;&nbsp;&nbsp;0<br/>
+                        2:&nbsp;&nbsp;&nbsp;&nbsp;2<br/>
+                        3:&nbsp;&nbsp;&nbsp;&nbsp;2<br/>
+                        4:&nbsp;&nbsp;&nbsp;&nbsp;2
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        sort
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        aardvark Barbara beetroot whale zeppelin 
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        sort_by
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        Sort by name::<br/>
+                            -aardvark: 30<br/>
+                            -Barbara: 53<br/>
+                            -beetroot: 0.3<br/>
+                            -whale: 2,000<br/>
+                            -zeppelin: -200<br/>
+                        <br/>
+                        Sort by weight::<br/>
+                            -zeppelin: -200<br/>
+                            -beetroot: 0.3<br/>
+                            -aardvark: 30<br/>
+                            -Barbara: 53<br/>
+                            -whale: 2,000<br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        sort
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        Sort by name.last::<br/>
+                            -Fred, Crooger : 35 years old<br/>
+                            -Amanda, Fox : 25 years old<br/>
+                            -Joe, Smith : 40 years old<br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" class="fs11" width="30%">
+                        Built-ins for hashes
+                    </td>
+                    <td align="left" class="fs9 ml20" width="70%">
+                        keys : 
+                            name<br/>
+                            price<br/>
+                        <br/>
+                        values:
+                            mouse<br/>
+                            50<br/>
+                    </td>
+                </tr>
+            </table>
+<!--barcode code39-->
+    </body>
+</pdf>
